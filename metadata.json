@@ -1,0 +1,7 @@
+{
+  "name": "ThinkWise AI – Decision Intelligence & Blind Spot Detection",
+  "description": "Think Deeper. See What You're Missing. AI-powered decision intelligence to uncover hidden assumptions, blind spots, risks, and alternative perspectives.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

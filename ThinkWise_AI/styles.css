@@ -1,0 +1,72 @@
+/* ThinkWise AI - Strict Red and White Color Theme */
+
+:root {
+  --primary-red: #B71C1C;
+  --bright-red: #E53935;
+  --white: #FFFFFF;
+  --light-grey: #F7F7F7;
+  --light-pink: #FCE8E8;
+  --dark-text: #252525;
+  --secondary-text: #777777;
+}
+
+/* Base Body Styles */
+.stApp {
+  background-color: var(--white);
+  color: var(--dark-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Primary Buttons */
+.stButton > button {
+  background-color: var(--primary-red) !important;
+  color: var(--white) !important;
+  border-radius: 10px !important;
+  border: none !important;
+  font-weight: 600 !important;
+  padding: 0.5rem 1.25rem !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.stButton > button:hover {
+  background-color: var(--bright-red) !important;
+  transform: translateY(-1px);
+}
+
+/* Cards */
+.thinkwise-card {
+  background-color: var(--white);
+  border: 1px solid #ECECEC;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.thinkwise-card-red {
+  background-color: var(--white);
+  border-left: 4px solid var(--primary-red);
+  border-radius: 0 12px 12px 0;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.thinkwise-card-pink {
+  background-color: var(--light-pink);
+  border: 1px solid #F5C6CB;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: var(--dark-text) !important;
+  font-weight: 700 !important;
+}
+
+.highlight-red {
+  color: var(--primary-red);
+  font-weight: bold;
+}
